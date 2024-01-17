@@ -1,6 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6BOvYMwN)
+![image](https://github.com/Josephaedan/PeerPrep/assets/48595194/fdf7e4da-5a48-4cb9-8244-2d7edfc99e12)
 
-# PeerPrep - CS3219 Group 3
+
+# PeerPrep
+
+PeerPrep is a collaborative coding platform for users to communicate and collaborate together on Data Structures and Algorithms Interview Questions with a real-time collaboration environment. It is built with a Microservices Architecture for the backend and developed as part of the [CS3219 Software Engineering Principles and Patterns](https://nusmods.com/courses/CS3219/software-engineering-principles-and-patterns) module from NUS. This project was built and developed by:
+- [Joseph Aedan Marcus](https://github.com/Josephaedan)
+- [Rayner Loh Jian Ming](https://github.com/raynerljm)
+- [Zechary Au Jun Wen](https://github.com/zechajw)
+- [Shem Maleriado Limos](https://github.com/sheimoria)
+- [Joel Wong Jun Yong](https://github.com/joelwongjy)
+
+## Joseph Aedan Marcus's Contributions
+
+- **Question Service Scraper (`/backend/question-service/lambda`):** Developed a web scraper lambda function that would scrape Leetcode for its questions as a CRON job.
+- **Question Service Server (`/backend/question-service/server`):** Developed a FastAPI server that serves Leetcode questions through HTTP endpoints, allowing for CRUD operations and pagination.
+- **Communication Service (`/backend/communication-service`):** Developed the Communication Service, an ExpressJS application that allows users to communicate with one another in real-time via a chat function using Websockets
+- **PeerPrep UI (`/frontend`):** Developed features and UI elements on the frontend to serve users.
 
 ## 1. Instructions to set up the services for local development
 
